@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "./Club.css";
+import Break from "../Break/Break";
 const Club = () => {
   const [infos, setInfo] = useState([]);
   console.log(infos);
@@ -35,7 +36,7 @@ const Club = () => {
             </p>
           </div>
         </div>
-        <div className="my-information flex bg-slate-400 justify-evenly mt-5 mx-auto rounded-md py-2">
+        <div className="my-information flex bg-slate-400 justify-evenly mt-5 mx-5 rounded-md py-2">
           <div className="flex flex-col">
             <span className="text-2xl">
               75<sub className="text-1xl">kg</sub>
@@ -52,7 +53,7 @@ const Club = () => {
             <span>Age</span>
           </div>
         </div>
-        
+        <Break></Break>
       </div>
     </div>
   );
