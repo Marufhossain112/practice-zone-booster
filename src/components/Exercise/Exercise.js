@@ -5,11 +5,11 @@ const Exercise = (props) => {
   return (
     <div className="player-info">
       <img src={img} alt="" />
-      <h3>{headerTitle}</h3>
+      <h3 className="text-2xl font-bold">{headerTitle}</h3>
       <p>{instruction}</p>
       <p>For Age : {age}</p>
       <p>Time required : {requiredTime}</p>
-      <button>Add to list</button>
+      <button className="">Add to list</button>
     </div>
   );
 };
