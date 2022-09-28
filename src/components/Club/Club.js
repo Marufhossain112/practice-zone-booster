@@ -14,12 +14,12 @@ const Club = () => {
   }, []);
   return (
     <div className="main-container">
-      <div className="exercise-container mx-9">
+      <div className="exercise-container mx-9 bg-lime-200">
         {infos.map((info) => (
           <Exercise info={info} key={info.id}></Exercise>
         ))}
       </div>
-      <div className="counter-container ">
+      <div className="counter-container  bg-cyan-200">
         <div className="my-profile flex items-center ml-6">
           <div className="images">
             <img
@@ -35,6 +35,24 @@ const Club = () => {
             </p>
           </div>
         </div>
+        <div className="my-information flex bg-slate-400 justify-evenly mt-5 mx-auto rounded-md py-2">
+          <div className="flex flex-col">
+            <span className="text-2xl">
+              75<sub className="text-1xl">kg</sub>
+            </span>
+            <span>Weight</span>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-2xl">6.5</span> <span>Height</span>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-2xl">
+              25<sub className="text-1xl">years</sub>{" "}
+            </span>
+            <span>Age</span>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
