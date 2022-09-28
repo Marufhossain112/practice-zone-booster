@@ -14,12 +14,12 @@ const Club = () => {
   }, []);
   return (
     <div className="main-container">
-      <div className="exercise-container">
+      <div className="exercise-container mx-9">
         {infos.map((info) => (
           <Exercise info={info} key={info.id}></Exercise>
         ))}
       </div>
-      <div className="counter-container">
+      <div className="counter-container ">
         <div className="my-profile flex items-center ml-6">
           <div className="images">
             <img
