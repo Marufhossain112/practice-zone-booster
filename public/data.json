@@ -2,7 +2,7 @@
   {
     "id": "01",
     "img": "./images/images",
-    "header": "Work hard",
+    "headerTitle": "Work hard",
     "instruction": "Hard work is the key to success if you don't work hard you can't success in life.",
     "age": 22,
     "requiredTime": 50
@@ -10,7 +10,7 @@
   {
     "id": "02",
     "img": "./images/images(1)",
-    "header": "Be fast",
+    "headerTitle": "Be fast",
     "instruction": "You need to be faster than all other players otherwise you will be leg behind",
     "age": 24,
     "requiredTime": 40
@@ -18,7 +18,7 @@
   {
     "id": "03",
     "img": "./images/images(2)",
-    "header": "Stay Focused",
+    "headerTitle": "Stay Focused",
     "instruction": "Always try to be concentrated to your work don't think about other foul things.",
     "age": 23,
     "requiredTime": 30
@@ -26,7 +26,7 @@
   {
     "id": "04",
     "img": "./images/images(3)",
-    "header": "Learn More",
+    "headerTitle": "Learn More",
     "instruction": "Never give up learning , always try to learn new things.",
     "age": 25,
     "requiredTime": 60
@@ -34,7 +34,7 @@
   {
     "id": "05",
     "img": "./images/images(4).jpeg",
-    "header": "Never give up",
+    "headerTitle": "Never give up",
     "instruction": "Stay motivated, never be depressed . Follow the rules and enjoy.",
     "age": 24,
     "requiredTime": 55
@@ -42,7 +42,7 @@
   {
     "id": "06",
     "img": "./images/images(5).jpeg",
-    "header": "Practice unlimited",
+    "headerTitle": "Practice unlimited",
     "instruction": "Practice more and more until you are died, practice makes a man perfect.",
     "age": 22,
     "requiredTime": 50
