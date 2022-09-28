@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "./Club.css";
 import Break from "../Break/Break";
+import Duration from "../Duration/Duration";
 const Club = () => {
   const [infos, setInfo] = useState([]);
   console.log(infos);
@@ -54,6 +55,7 @@ const Club = () => {
           </div>
         </div>
         <Break></Break>
+        <Duration></Duration>
       </div>
     </div>
   );
