@@ -20,7 +20,7 @@ const Club = () => {
         ))}
       </div>
       <div className="counter-container">
-        <div className="my-profile flex items-center">
+        <div className="my-profile flex items-center ml-6">
           <div className="images">
             <img
               src="https://www.ukmodels.co.uk/wp-content/uploads/2015/07/shutterstock_221570062.jpg"
