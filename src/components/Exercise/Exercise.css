@@ -3,6 +3,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 22px;
 }
+.player-info img {
+  padding: 0 22px;
+  height: 167px;
+  width: 284px;
+  border-radius: 15px;
+}
 @media screen and (max-width: 700px) {
   .exercise-container {
     margin-top: 31px;
