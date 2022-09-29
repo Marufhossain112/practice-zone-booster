@@ -14,3 +14,10 @@
 .my-information {
   margin: 25px 13px;
 }
+
+@media screen and (max-width: 700px) {
+  .main-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

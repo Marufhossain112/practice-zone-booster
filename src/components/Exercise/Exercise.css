@@ -3,3 +3,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 22px;
 }
+@media screen and (max-width: 700px) {
+  .exercise-container {
+    margin-top: 31px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 const Profile = () => {
   return (
-    <div className="my-profile flex items-center ml-6">
+    <div className="my-profile flex items-center justify-center ml-6">
       <div className="images">
         <img
           src="https://www.ukmodels.co.uk/wp-content/uploads/2015/07/shutterstock_221570062.jpg"
