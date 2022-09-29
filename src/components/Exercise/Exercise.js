@@ -3,7 +3,6 @@ import addToLocalStorage from "../utilities/localStorage";
 import "./Exercise.css";
 const Exercise = (props) => {
   const { img, age, headerTitle, instruction, requiredTime } = props.info;
-
   // console.log(props);
   return (
     <div className="player-info border border-indigo-800 rounded-xl py-6">
