@@ -6,11 +6,21 @@ const BreakDuration = (props) => {
   //   console.log(props);
   const notify = () => toast("Congratulations , Activity Completed !");
   const { breaks, onChange } = props;
+  const inputStyle = {
+    outline: 0,
+    border: 0,
+  };
+  const divStyle = {
+    border: "1px solid gray",
+    display: "inline",
+    padding: "2px",
+  };
   return (
-    <div>
+    <div style={divStyle}>
+      <span>Break time</span>
       <input
+        style={inputStyle}
         type="text"
-        placeholder="Break Time"
         className="mt-2 p-2"
         onChange={onChange}
         value={breaks}

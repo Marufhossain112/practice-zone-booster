@@ -18,7 +18,7 @@ const Duration = (props) => {
 
   return (
     <div>
-      <h1 className="text-2xl mt-5">Exercise Details</h1>
+      <h1 className="text-1xl mt-5">Exercise Time</h1>
       <input
         type="text"
         placeholder="Exercise Time"
