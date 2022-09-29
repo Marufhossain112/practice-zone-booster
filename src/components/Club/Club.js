@@ -47,7 +47,7 @@ const Club = () => {
             ></Exercise>
           ))}
         </div>
-        <div className="counter-container  bg-cyan-200">
+        <div className="counter-container bg-cyan-200">
           <Profile></Profile>
           <Information></Information>
           <Break handleBreakBtn={handleBreakBtn}></Break>
